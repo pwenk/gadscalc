@@ -1,8 +1,3 @@
-export default function Home() {
-  return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'></main>
-  );
-}
 'use client'; 
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
@@ -171,3 +166,4 @@ const GoogleAdsCalculator = () => {
 };
 
 export default GoogleAdsCalculator;
+
